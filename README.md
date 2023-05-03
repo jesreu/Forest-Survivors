@@ -10,13 +10,13 @@ Godot pelimoottorilla tehty selviytymispeli.
   <summary>Sisältö</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Projektista</a>
+      <a href="#projektista">Projektista</a>
       <ul>
-        <li><a href="#built-with">Käytetyt teknologiat</a></li>
+        <li><a href="#käytetyt-teknologiat">Käytetyt teknologiat</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started">Projektin</a>
     </li>
     <li><a href="#acknowledgments">Lähteet</a></li>
     <li><a href="#scenario-planning">Scenario Planning</a></li>
@@ -28,7 +28,8 @@ Godot pelimoottorilla tehty selviytymispeli.
 
 ## Projektista
 
-## Getting Started
+
+## Aloittaminen
 
 
 
