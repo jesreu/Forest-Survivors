@@ -9,19 +9,14 @@ Godot pelimoottorilla tehty selviytymispeli.
 <details>
   <summary>Sisältö</summary>
   <ol>
+    <li><a href="#projektista">Projektista</a></li>
+    <li><a href="#käytetyt-teknologiat">Käytetyt teknologiat</a></li>
     <li>
-      <a href="#projektista">Projektista</a>
-      <ul>
-        <li><a href="#käytetyt-teknologiat">Käytetyt teknologiat</a></li>
-      </ul>
+      <a href="#getting-started">Projektin tulokset</a>
     </li>
-    <li>
-      <a href="#getting-started">Projektin</a>
-    </li>
-    <li><a href="#acknowledgments">Lähteet</a></li>
-    <li><a href="#scenario-planning">Scenario Planning</a></li>
-    <li><a href="#known-issues">Known Issues</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#acknowledgments">Opittua</a></li>
+    <li><a href="#known-issues">Known Issues</a></li>    
+    <li><a href="#lähteet">Lähteet</a></li>
 
   </ol>
 </details>
@@ -55,4 +50,4 @@ Godot pelimoottorilla tehty selviytymispeli.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## License 
+## Lähteet
