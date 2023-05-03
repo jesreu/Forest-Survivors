@@ -3,7 +3,7 @@
 
     Kirjoittanut ja koodannut: Jesse Reunamo
     Kurssi:                    Ohjelmistokehityksen teknologioita
-    Linkki videoon:            
+    Linkki videoon:            [sharepoint](https://haagahelia-my.sharepoint.com/:v:/g/personal/bgu175_myy_haaga-helia_fi/Ef6oz5h96lVFuQuVWoa6QwsBEHPb0s-hvEheJfV-ggXDFA)
  
 <details>
   <summary>Sisältö</summary>
