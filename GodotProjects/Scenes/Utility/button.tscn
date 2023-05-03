@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://6qsrok3oycqi"]
+
+[ext_resource type="AudioStream" uid="uid://0riojsrrd0ev" path="res://Audio/UI Soundpack/UI Soundpack/OGG/Wood Block1.ogg" id="1_3okau"]
+[ext_resource type="Script" path="res://Scenes/Utility/button.gd" id="1_kjn2a"]
+[ext_resource type="FontFile" uid="uid://bef63aem11s5s" path="res://Font/DungeonFont.ttf" id="1_ucxt2"]
+
+[node name="Button" type="Button"]
+offset_left = 17.0
+offset_top = 98.0
+offset_right = 77.0
+offset_bottom = 112.0
+theme_override_fonts/font = ExtResource("1_ucxt2")
+text = "Example"
+script = ExtResource("1_kjn2a")
+
+[node name="snd_click" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("1_3okau")
+volume_db = -10.0
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]
+[connection signal="finished" from="snd_click" to="." method="_on_snd_click_finished"]

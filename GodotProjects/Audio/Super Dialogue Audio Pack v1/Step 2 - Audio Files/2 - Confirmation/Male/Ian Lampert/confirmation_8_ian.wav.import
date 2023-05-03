@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://okpdi3o71whl"
+path="res://.godot/imported/confirmation_8_ian.wav-0f50c4d80fff4ff79c51262bb05a5015.sample"
+
+[deps]
+
+source_file="res://Audio/Super Dialogue Audio Pack v1/Step 2 - Audio Files/2 - Confirmation/Male/Ian Lampert/confirmation_8_ian.wav"
+dest_files=["res://.godot/imported/confirmation_8_ian.wav-0f50c4d80fff4ff79c51262bb05a5015.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

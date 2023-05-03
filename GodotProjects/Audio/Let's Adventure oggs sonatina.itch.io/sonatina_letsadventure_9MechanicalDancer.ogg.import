@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cojd8yjg2lfw6"
+path="res://.godot/imported/sonatina_letsadventure_9MechanicalDancer.ogg-30179a01d81bc390a7bad3a0f6f0e9d8.oggvorbisstr"
+
+[deps]
+
+source_file="res://Audio/Let's Adventure oggs sonatina.itch.io/sonatina_letsadventure_9MechanicalDancer.ogg"
+dest_files=["res://.godot/imported/sonatina_letsadventure_9MechanicalDancer.ogg-30179a01d81bc390a7bad3a0f6f0e9d8.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

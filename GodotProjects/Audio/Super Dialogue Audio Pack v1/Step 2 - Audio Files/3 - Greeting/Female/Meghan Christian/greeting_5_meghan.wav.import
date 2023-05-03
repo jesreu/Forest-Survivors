@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b466pa0a00mwa"
+path="res://.godot/imported/greeting_5_meghan.wav-2b73f1dcea9f3e1254c430f91f0ccb59.sample"
+
+[deps]
+
+source_file="res://Audio/Super Dialogue Audio Pack v1/Step 2 - Audio Files/3 - Greeting/Female/Meghan Christian/greeting_5_meghan.wav"
+dest_files=["res://.godot/imported/greeting_5_meghan.wav-2b73f1dcea9f3e1254c430f91f0ccb59.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

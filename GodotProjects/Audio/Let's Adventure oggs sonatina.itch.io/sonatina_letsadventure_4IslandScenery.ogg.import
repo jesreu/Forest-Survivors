@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dqomwgd2vj1dv"
+path="res://.godot/imported/sonatina_letsadventure_4IslandScenery.ogg-63cc0a290aeb751e4b6a949654c14c22.oggvorbisstr"
+
+[deps]
+
+source_file="res://Audio/Let's Adventure oggs sonatina.itch.io/sonatina_letsadventure_4IslandScenery.ogg"
+dest_files=["res://.godot/imported/sonatina_letsadventure_4IslandScenery.ogg-63cc0a290aeb751e4b6a949654c14c22.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://835yo4mdiwye"
+path="res://.godot/imported/confirmation_1_karen.wav-707a44b8769198dd95371bbb21acff10.sample"
+
+[deps]
+
+source_file="res://Audio/Super Dialogue Audio Pack v1/Step 2 - Audio Files/2 - Confirmation/Female/Karen Cenon/confirmation_1_karen.wav"
+dest_files=["res://.godot/imported/confirmation_1_karen.wav-707a44b8769198dd95371bbb21acff10.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

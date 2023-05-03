@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cuvr1m3kuds1f"
+path="res://.godot/imported/damage_8_karen.wav-49bec8ac13ef31e6e1ec17e652a414e3.sample"
+
+[deps]
+
+source_file="res://Audio/Super Dialogue Audio Pack v1/Step 2 - Audio Files/7 - Damage/Female/Karen Cenon/damage_8_karen.wav"
+dest_files=["res://.godot/imported/damage_8_karen.wav-49bec8ac13ef31e6e1ec17e652a414e3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

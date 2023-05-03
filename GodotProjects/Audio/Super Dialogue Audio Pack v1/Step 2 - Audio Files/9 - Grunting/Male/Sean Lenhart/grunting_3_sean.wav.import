@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bs8tk8xf3n5wd"
+path="res://.godot/imported/grunting_3_sean.wav-664c7dbfa379b6276dbea9d2dd13f115.sample"
+
+[deps]
+
+source_file="res://Audio/Super Dialogue Audio Pack v1/Step 2 - Audio Files/9 - Grunting/Male/Sean Lenhart/grunting_3_sean.wav"
+dest_files=["res://.godot/imported/grunting_3_sean.wav-664c7dbfa379b6276dbea9d2dd13f115.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=1
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

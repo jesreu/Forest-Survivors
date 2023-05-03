@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bf66ko8nj4orl"
+path="res://.godot/imported/Medieval Vol. 2 6.ogg-43a1f5844da8487c4d3335af3d1cf971.oggvorbisstr"
+
+[deps]
+
+source_file="res://Audio/Medieval Vol. 2/ogg/Medieval Vol. 2 6.ogg"
+dest_files=["res://.godot/imported/Medieval Vol. 2 6.ogg-43a1f5844da8487c4d3335af3d1cf971.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

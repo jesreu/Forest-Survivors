@@ -1,0 +1,204 @@
+[gd_scene load_steps=29 format=3 uid="uid://3g76fj0utwqi"]
+
+[ext_resource type="Texture2D" uid="uid://tbcteb7bfuap" path="res://Textures/Enemies/Fantasy Skeleton Enemies/Skeleton Warrior.png" id="1_isxyi"]
+[ext_resource type="Script" path="res://Scenes/Enemy/enemy.gd" id="1_sb2mj"]
+[ext_resource type="PackedScene" uid="uid://b72rgxxiq3xxw" path="res://Scenes/Utility/hurt_box.tscn" id="3_sbxfy"]
+[ext_resource type="PackedScene" uid="uid://bxuj47807x3sh" path="res://Scenes/Utility/hitbox.tscn" id="4_xxcyk"]
+[ext_resource type="AudioStream" uid="uid://bkt2w6dj5odc0" path="res://Audio/Super Dialogue Audio Pack v1/Step 2 - Audio Files/7 - Damage/Male/Ian Lampert/damage_8_ian.wav" id="5_wfemn"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_3js1o"]
+radius = 6.0
+height = 22.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b8kgh"]
+atlas = ExtResource("1_isxyi")
+region = Rect2(0, 192, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rqmuw"]
+atlas = ExtResource("1_isxyi")
+region = Rect2(48, 192, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6q8wp"]
+atlas = ExtResource("1_isxyi")
+region = Rect2(96, 192, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bdpvr"]
+atlas = ExtResource("1_isxyi")
+region = Rect2(144, 192, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d53w5"]
+atlas = ExtResource("1_isxyi")
+region = Rect2(192, 192, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kis6v"]
+atlas = ExtResource("1_isxyi")
+region = Rect2(240, 192, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pq730"]
+atlas = ExtResource("1_isxyi")
+region = Rect2(288, 192, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t74cn"]
+atlas = ExtResource("1_isxyi")
+region = Rect2(336, 192, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7erru"]
+atlas = ExtResource("1_isxyi")
+region = Rect2(384, 192, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ghytj"]
+atlas = ExtResource("1_isxyi")
+region = Rect2(432, 192, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dgjve"]
+atlas = ExtResource("1_isxyi")
+region = Rect2(480, 192, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dxyei"]
+atlas = ExtResource("1_isxyi")
+region = Rect2(528, 192, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q6dga"]
+atlas = ExtResource("1_isxyi")
+region = Rect2(576, 192, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fr3mb"]
+atlas = ExtResource("1_isxyi")
+region = Rect2(0, 96, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f1d3p"]
+atlas = ExtResource("1_isxyi")
+region = Rect2(48, 96, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aaqy6"]
+atlas = ExtResource("1_isxyi")
+region = Rect2(96, 96, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_otejw"]
+atlas = ExtResource("1_isxyi")
+region = Rect2(144, 96, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n2cxg"]
+atlas = ExtResource("1_isxyi")
+region = Rect2(192, 96, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0pxnl"]
+atlas = ExtResource("1_isxyi")
+region = Rect2(240, 96, 48, 48)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_75yvh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b8kgh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rqmuw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6q8wp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bdpvr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d53w5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kis6v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pq730")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t74cn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7erru")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ghytj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dgjve")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dxyei")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q6dga")
+}],
+"loop": true,
+"name": &"death",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fr3mb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f1d3p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aaqy6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_otejw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n2cxg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0pxnl")
+}],
+"loop": true,
+"name": &"run",
+"speed": 15.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_naior"]
+size = Vector2(20, 29)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fswbe"]
+size = Vector2(16, 22)
+
+[node name="Enemy_Skeleton" type="CharacterBody2D"]
+collision_layer = 5
+collision_mask = 5
+motion_mode = 1
+script = ExtResource("1_sb2mj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_3js1o")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(1, -5)
+sprite_frames = SubResource("SpriteFrames_75yvh")
+animation = &"death"
+frame_progress = 0.143571
+
+[node name="HurtBox" parent="." instance=ExtResource("3_sbxfy")]
+collision_layer = 5
+collision_mask = 5
+HurtBoxType = 1
+
+[node name="CollisionShape2D" parent="HurtBox" index="0"]
+shape = SubResource("RectangleShape2D_naior")
+
+[node name="Hitbox" parent="." instance=ExtResource("4_xxcyk")]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" parent="Hitbox" index="0"]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_fswbe")
+
+[node name="sound_hit" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_wfemn")
+volume_db = -17.0
+pitch_scale = 0.5
+
+[connection signal="hurt" from="HurtBox" to="." method="_on_hurt_box_hurt"]
+
+[editable path="HurtBox"]
+[editable path="Hitbox"]

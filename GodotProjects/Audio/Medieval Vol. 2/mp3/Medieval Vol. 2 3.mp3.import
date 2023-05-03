@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ow34glrdbi8c"
+path="res://.godot/imported/Medieval Vol. 2 3.mp3-cad516a3f0201332ef70a672e630c6e2.mp3str"
+
+[deps]
+
+source_file="res://Audio/Medieval Vol. 2/mp3/Medieval Vol. 2 3.mp3"
+dest_files=["res://.godot/imported/Medieval Vol. 2 3.mp3-cad516a3f0201332ef70a672e630c6e2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

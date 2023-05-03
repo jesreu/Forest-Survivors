@@ -1,0 +1,65 @@
+[gd_scene load_steps=9 format=3 uid="uid://b6d7wu2vqjkss"]
+
+[ext_resource type="Script" path="res://Scenes/Player/Attack/fireball.gd" id="1_3ta2m"]
+[ext_resource type="Texture2D" uid="uid://b2ruerncnow2o" path="res://Textures/Spells/Fire Effect 2/Fire Effect 2/Explosion 2 SpriteSheet.png" id="1_ujgqb"]
+[ext_resource type="AudioStream" uid="uid://c2ru6frvi0oqq" path="res://Audio/Shapeforms Audio Free Sound Effects/Arcane Activations Preview/AUDIO/Arcane Wind Chime Gust.wav" id="3_ny1f1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m6kt3"]
+atlas = ExtResource("1_ujgqb")
+region = Rect2(432, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w7pt1"]
+atlas = ExtResource("1_ujgqb")
+region = Rect2(480, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_48ehh"]
+atlas = ExtResource("1_ujgqb")
+region = Rect2(528, 0, 48, 48)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_suskq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m6kt3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w7pt1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_48ehh")
+}],
+"loop": true,
+"name": &"fireloop",
+"speed": 15.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lealw"]
+size = Vector2(40, 32)
+
+[node name="Fireball" type="Area2D" groups=["attack"]]
+top_level = true
+scale = Vector2(0.1, 0.1)
+collision_layer = 4
+collision_mask = 4
+script = ExtResource("1_3ta2m")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_suskq")
+animation = &"fireloop"
+frame_progress = 0.545491
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 2)
+shape = SubResource("RectangleShape2D_lealw")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 20.0
+autostart = true
+
+[node name="sound_attack" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_ny1f1")
+volume_db = -20.098
+pitch_scale = 0.55
+autoplay = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

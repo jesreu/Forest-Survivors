@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://ba3vy5xf0wkb4"
+path="res://.godot/imported/sonatina_letsadventure_8InExtremis.ogg-e263122cfdc3627488f95932be855137.oggvorbisstr"
+
+[deps]
+
+source_file="res://Audio/Let's Adventure oggs sonatina.itch.io/sonatina_letsadventure_8InExtremis.ogg"
+dest_files=["res://.godot/imported/sonatina_letsadventure_8InExtremis.ogg-e263122cfdc3627488f95932be855137.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

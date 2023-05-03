@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://caf7pgtan85hm"
+path="res://.godot/imported/farewell_2_karen.wav-4c98852b7421778f2f97f337037cfd4c.sample"
+
+[deps]
+
+source_file="res://Audio/Super Dialogue Audio Pack v1/Step 2 - Audio Files/4 - Farewell/Female/Karen Cenon/farewell_2_karen.wav"
+dest_files=["res://.godot/imported/farewell_2_karen.wav-4c98852b7421778f2f97f337037cfd4c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
