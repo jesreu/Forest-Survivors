@@ -34,11 +34,7 @@ Godot pelimoottorilla tehty selviytymispeli.
 ## Opittua
 
 
- <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Puutteet
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## Lähteet
