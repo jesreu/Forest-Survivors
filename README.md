@@ -69,6 +69,6 @@ Pelin pelimaailma, jäi varsin pieneksi joten ehkä peliä voisi ajatella enemm�
 
 ## Lähteet
     
-Tutoriaali johon projekti pohjautuu: https://www.youtube.com/watch?v=abA7TF7z6W8&list=PLtosjGHWDab682nfZ1f6JSQ1cjap7Ieeb
-Godot Dokumentaatio:                 https://docs.godotengine.org/en/stable/index.html
+* Tutoriaali johon projekti pohjautuu: https://www.youtube.com/watch?v=abA7TF7z6W8&list=PLtosjGHWDab682nfZ1f6JSQ1cjap7Ieeb
+* Godot Dokumentaatio:                 https://docs.godotengine.org/en/stable/index.html
 
